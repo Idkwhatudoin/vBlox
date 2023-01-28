@@ -1,0 +1,9 @@
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
+
+local win = Flux:Window("vBlox Hub", "Universal", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
+
+local tabs = win:Tab("Scripts", "http://www.roblox.com/asset/?id=11570895484")
+local tabc = win:Tab("Credits", "http://www.roblox.com/asset/?id=11948032382")
+
+tabs:Label("Normal")
+
